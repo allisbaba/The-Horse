@@ -32,12 +32,14 @@ public class InfiniteGroundSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (groundPrefabs[0].transform.position.z - spawnDistance < (zSpawn - (initialGroundCount * groundlength)))
+        if (player.transform.position.z - spawnDistance > (zSpawn - (initialGroundCount * groundlength)))
         {
             SpawnGround(Random.Range(0, groundPrefabs.Length));
             RemoveOldGround();
         }
     }
+
+   
 
     void SpawnGround(int groundIndex)
     {
