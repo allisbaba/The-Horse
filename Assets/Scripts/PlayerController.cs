@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private Vector3 startTouchPosition;
     private Vector3 endTouchPosition;
-    public float speed = 1f;
+    public float speed = 0.00001f;
     void Start()
     {
         
@@ -63,16 +63,16 @@ public class PlayerController : MonoBehaviour
 
     public void Jump()
     {
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 4, gameObject.transform.position.z);
+        gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 2, gameObject.transform.position.z);
     }
 
     public void Move()
     {
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x + 2, gameObject.transform.position.y, gameObject.transform.position.z);
+        gameObject.transform.position = new Vector3(gameObject.transform.position.x + 1, gameObject.transform.position.y, gameObject.transform.position.z);
     }
 
     public void DeMove()
     {
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x - 2, gameObject.transform.position.y, gameObject.transform.position.z);
+        gameObject.transform.position = new Vector3(gameObject.transform.position.x - 1, gameObject.transform.position.y, gameObject.transform.position.z);
     }
 }

@@ -2187,7 +2187,6 @@ GameObject:
   - component: {fileID: 7505856581162776264}
   - component: {fileID: 6942152606027346422}
   - component: {fileID: 2529604746034417344}
-  - component: {fileID: 7949667051981236333}
   m_Layer: 0
   m_Name: Ground4
   m_TagString: Obstacles
@@ -2282,19 +2281,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7949667051981236333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6331667673521938957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97f50382db7c31f4aac35a60cccaa331, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.1
 --- !u!1 &7433315654062661018
 GameObject:
   m_ObjectHideFlags: 0

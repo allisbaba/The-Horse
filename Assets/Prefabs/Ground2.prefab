@@ -1796,7 +1796,6 @@ GameObject:
   - component: {fileID: 4149012967950604191}
   - component: {fileID: 7289847743007672266}
   - component: {fileID: 4549308699210964988}
-  - component: {fileID: 3379111861556748244}
   m_Layer: 0
   m_Name: Ground2
   m_TagString: Obstacles
@@ -1891,19 +1890,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3379111861556748244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4785750020481091642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97f50382db7c31f4aac35a60cccaa331, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.1
 --- !u!1 &4936972214637332557
 GameObject:
   m_ObjectHideFlags: 0
