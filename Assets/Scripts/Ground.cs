@@ -11,11 +11,4 @@ public class Ground : MonoBehaviour
         gameObject.transform.Translate(0, 0, 0 * speed); 
     }
 
-    public void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject)
-        {
-            Debug.Log("yeni prefab oluþturuldu");
-        }
-    }
 }
