@@ -6,7 +6,7 @@ public class InfiniteGroundSpawner : MonoBehaviour
 {
     public GameObject[] groundPrefabs;
     public Transform player;
-    public float spawnDistance = 30f;
+    public float spawnDistance = 55f;
     public int initialGroundCount = 5;
 
     private List<GameObject> activeGrounds = new List<GameObject>();
