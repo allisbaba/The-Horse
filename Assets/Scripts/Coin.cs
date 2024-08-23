@@ -6,6 +6,7 @@ using TMPro;
 
 public class Coin : MonoBehaviour
 {
+    public GameObject coinPrefab;
     public TextMeshProUGUI coinText;
     public int coinScore = 0;
 
@@ -14,8 +15,9 @@ public class Coin : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             coinScore++;
+            Debug.Log("skor arttý obje yok oldu");
             coinText.text = coinScore.ToString();
-            Destroy(gameObject);
+            Destroy(coinPrefab);
         }
     }
 }
